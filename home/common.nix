@@ -25,6 +25,8 @@
     zoxide
     opencode
     tmux
+    go
+    nodejs
   ];
 
   programs.zsh = {
@@ -94,7 +96,6 @@
   };
 
   home.file.".p10k.zsh".source = ./configs/p10k.zsh;
-  home.file.".config/nvim".source = ./configs/nvim;
   home.file.".tmux.conf".source = ./configs/tmux.conf;
   home.file.".config/ghostty/config".source = ./configs/ghostty-config;
 
